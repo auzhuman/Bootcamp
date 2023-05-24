@@ -1,4 +1,9 @@
-/node_modules/
-/config/config.env/
-/_data/
+server.js
+node_modules/
+server.js
+config*
+
+server.js
  
+
+

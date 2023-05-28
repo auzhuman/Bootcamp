@@ -25,7 +25,7 @@ exports.getCourses = asyncHandler( async (req,res,next) => {
      }
      else{
          res.status(200).json(res.advancedResults);
-     } 
+     }  
 });
 
 

@@ -1,9 +1,13 @@
-server.js
-node_modules/
-server.js
-config*
 
-server.js
+node_modules/
+/config
+
+
+/temp/
+
+/public
+
+.env
  
 
 

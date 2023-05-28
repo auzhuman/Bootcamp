@@ -23,7 +23,7 @@ exports.getBootcamps = asyncHandler( async(req,res,next) => {
 //@access Public
 exports.getBootcamp = asyncHandler( async(req,res,next) => {
     // try {
-        const bootcamp = await Bootcamp.findById(req.params.id);
+        const bootcamp = await Bootcamp.findById(req.params.id).populate('courses');;
         // if bootcamp id is not same throw error
         if(!bootcamp){
             return next(
